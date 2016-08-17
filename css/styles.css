@@ -1,3 +1,6 @@
+body {
+   position:flex;
+}
 .col-md-12 {
    height: 100px;
    background-color: green;
@@ -30,4 +33,25 @@
 .container {
    height: 50px;
    background-color: pink;
+}
+
+.yellow {
+   height: 50px;
+   background-color: yellow;
+}
+
+.col-lg-9 {
+   border: 1px solid #000;
+   background-color: gold;
+}
+
+.col-lg-3 {
+   border: 1px solid #000;
+   background-color: cyan;
+}
+
+.absolute-lorem {
+   position: absolute;
+   top: 20px;
+   left: 200px;
 }
